@@ -443,23 +443,23 @@ h1 .dot { color: var(--lime); }
 .hero__meta span::before { content: ""; width: 5px; height: 5px; border-radius: 50%; background: var(--lime); }
 
 /* ---------- 9. Logo marquee ---------- */
-.logo-strip { padding-block: 1.6rem; border-block: 1px solid var(--line); overflow: hidden; background: var(--paper); }
+.logo-strip { padding-block: 2.2rem; border-block: 1px solid var(--line); overflow: hidden; background: var(--paper); }
 .logo-track { display: flex; width: max-content; animation: marquee 46s linear infinite; }
 .logo-strip:hover .logo-track { animation-play-state: paused; }
-.logo-group { display: flex; align-items: center; gap: 0.9rem; padding-right: 0.9rem; }
+.logo-group { display: flex; align-items: center; gap: 1.1rem; padding-right: 1.1rem; }
 .logo-chip {
   display: inline-flex;
   align-items: center;
-  gap: 0.7rem;
-  padding: 0.65rem 1.1rem;
+  gap: 0.8rem;
+  padding: 0.8rem 1.3rem;
   border: 1px solid var(--line);
   border-radius: var(--pill);
   background: var(--card);
   white-space: nowrap;
 }
-.logo-chip img { height: 26px; width: auto; max-width: 72px; object-fit: contain; filter: grayscale(1); opacity: 0.72; transition: filter 0.25s var(--ease), opacity 0.25s var(--ease); }
+.logo-chip img { height: 32px; width: auto; max-width: 84px; object-fit: contain; filter: grayscale(1); opacity: 0.72; transition: filter 0.25s var(--ease), opacity 0.25s var(--ease); }
 .logo-chip:hover img { filter: none; opacity: 1; }
-.logo-chip span { font-size: 0.74rem; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); }
+.logo-chip span { font-size: 0.8rem; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); }
 
 @keyframes marquee {
   from { transform: translateX(0); }
