@@ -4,7 +4,7 @@ A hand-built, editorial portfolio site for **Sandrine Ojong** — Mastercard Fou
 Scholar, social entrepreneur, and education advocate.
 
 The design follows the provided Stitch reference (`Editorial Diplomat`) and borrows
-its pacing from warm, long-form storytelling sites: a linen canvas, Newsreader serif
+its pacing from warm, long-form storytelling sites: a white canvas, Newsreader serif
 display type, IBM Plex Sans for interface text, hairline rules, and a single lime
 accent used like a highlighter.
 
@@ -12,7 +12,7 @@ accent used like a highlighter.
 
 | File | Purpose |
 | --- | --- |
-| `index.html` | Home: hero, logo marquee, about intro, field notes, manifesto, impact metrics, current work, moments gallery, affiliations, contact form |
+| `index.html` | Home: hero, logo marquee, about intro, manifesto, impact metrics, current work, moments gallery, affiliations |
 | `about.html` | Full story and bio, work timeline, UNESCO feature, principles, photo gallery, recognition |
 | `contact.html` | Inquiry form, direct contact card with copy-email, social links, FAQ |
 
