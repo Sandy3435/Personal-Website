@@ -443,23 +443,23 @@ h1 .dot { color: var(--lime); }
 .hero__meta span::before { content: ""; width: 5px; height: 5px; border-radius: 50%; background: var(--lime); }
 
 /* ---------- 9. Logo marquee ---------- */
-.logo-strip { padding-block: 1.1rem; border-block: 1px solid var(--line); overflow: hidden; background: var(--paper); }
+.logo-strip { padding-block: 1.6rem; border-block: 1px solid var(--line); overflow: hidden; background: var(--paper); }
 .logo-track { display: flex; width: max-content; animation: marquee 46s linear infinite; }
 .logo-strip:hover .logo-track { animation-play-state: paused; }
-.logo-group { display: flex; align-items: center; gap: 0.65rem; padding-right: 0.65rem; }
+.logo-group { display: flex; align-items: center; gap: 0.9rem; padding-right: 0.9rem; }
 .logo-chip {
   display: inline-flex;
   align-items: center;
-  gap: 0.55rem;
-  padding: 0.5rem 0.9rem;
+  gap: 0.7rem;
+  padding: 0.65rem 1.1rem;
   border: 1px solid var(--line);
   border-radius: var(--pill);
   background: var(--card);
   white-space: nowrap;
 }
-.logo-chip img { height: 20px; width: auto; max-width: 58px; object-fit: contain; filter: grayscale(1); opacity: 0.72; transition: filter 0.25s var(--ease), opacity 0.25s var(--ease); }
+.logo-chip img { height: 26px; width: auto; max-width: 72px; object-fit: contain; filter: grayscale(1); opacity: 0.72; transition: filter 0.25s var(--ease), opacity 0.25s var(--ease); }
 .logo-chip:hover img { filter: none; opacity: 1; }
-.logo-chip span { font-size: 0.68rem; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); }
+.logo-chip span { font-size: 0.74rem; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); }
 
 @keyframes marquee {
   from { transform: translateX(0); }
@@ -564,7 +564,7 @@ h1 .dot { color: var(--lime); }
   background: radial-gradient(circle, rgba(199, 234, 70, 0.16), transparent 68%);
   pointer-events: none;
 }
-.manifesto__inner { position: relative; z-index: 1; display: flex; flex-direction: column; gap: 1.6rem; max-width: 74rem; }
+#work { padding-top: 1rem; }
 .manifesto p {
   font-family: var(--font-serif);
   font-size: clamp(1.55rem, 3.5vw, 2.85rem);
