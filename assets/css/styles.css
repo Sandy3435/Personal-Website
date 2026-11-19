@@ -241,8 +241,9 @@ h3 { font-size: clamp(1.35rem, 2.2vw, 1.8rem); line-height: 1.15; }
   height: var(--header-h);
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   gap: 1.5rem;
+  position: relative;
 }
 
 .brand {
@@ -290,7 +291,7 @@ h3 { font-size: clamp(1.35rem, 2.2vw, 1.8rem); line-height: 1.15; }
 .site-nav a[aria-current="page"]::after { transform: scaleX(1); }
 .site-nav a[aria-current="page"] { color: var(--ink); font-weight: 600; }
 
-.site-header__actions { display: flex; align-items: center; gap: 0.7rem; }
+.site-header__actions { position: absolute; right: var(--gutter); top: 50%; transform: translateY(-50%); display: flex; align-items: center; gap: 0.7rem; }
 
 .menu-toggle {
   display: none;
