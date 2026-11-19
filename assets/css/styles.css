@@ -97,6 +97,7 @@ h3 { font-size: clamp(1.35rem, 2.2vw, 1.8rem); line-height: 1.15; }
   color: var(--ink-2);
   max-width: 70ch;
 }
+.dot { color: var(--lime); }
 
 .muted { color: var(--muted); }
 .serif { font-family: var(--font-serif); }
@@ -738,29 +739,25 @@ h1 .dot { color: var(--lime); }
 .gallery__caption span { font-size: 0.68rem; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(255, 255, 255, 0.7); }
 
 /* ---------- 16. Affiliations ---------- */
-.logo-grid {
+.logo-wall {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 1px;
-  background: var(--line);
-  border: 1px solid var(--line);
-  border-radius: var(--radius-lg);
-  overflow: hidden;
-}
-.logo-cell {
-  background: var(--card);
-  padding: 1.4rem 1rem;
-  display: flex;
-  flex-direction: column;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: clamp(2rem, 4vw, 3.5rem) clamp(1.5rem, 3vw, 3rem);
   align-items: center;
-  justify-content: center;
-  gap: 0.6rem;
-  min-height: 118px;
-  text-align: center;
+  justify-items: center;
+  padding-block: clamp(1rem, 2vw, 1.5rem);
 }
-.logo-cell img { max-height: 36px; max-width: 120px; object-fit: contain; filter: grayscale(1); opacity: 0.78; transition: filter 0.25s var(--ease), opacity 0.25s var(--ease); }
-.logo-cell:hover img { filter: none; opacity: 1; }
-.logo-cell span { font-size: 0.66rem; letter-spacing: 0.09em; text-transform: uppercase; color: var(--muted); }
+.logo-wall img {
+  max-height: 56px;
+  max-width: 170px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  filter: none;
+  opacity: 1;
+  transition: transform 0.25s var(--ease), opacity 0.25s var(--ease);
+}
+.logo-wall img:hover { transform: scale(1.06); opacity: 0.85; }
 
 .recognition { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 2rem; }
 .recognition li { display: grid; grid-template-columns: 5.6rem minmax(0, 1fr); gap: 0.9rem; padding-block: 0.85rem; border-bottom: 1px solid var(--line); align-items: baseline; }
@@ -1056,7 +1053,7 @@ h1 .dot { color: var(--lime); }
       linear-gradient(0deg, rgba(11, 14, 20, 0.95) 0%, rgba(11, 14, 20, 0.6) 45%, rgba(11, 14, 20, 0.1) 75%, rgba(11, 14, 20, 0) 100%),
       linear-gradient(90deg, rgba(11, 14, 20, 0.45), transparent 70%);
   }
-  .logo-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .logo-wall { grid-template-columns: repeat(5, minmax(0, 1fr)); }
   .metrics { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .metric:last-child { grid-column: span 2; }
 }
@@ -1094,7 +1091,7 @@ h1 .dot { color: var(--lime); }
   .gallery { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .gallery__item--feature { grid-column: span 2; grid-row: auto; }
   .gallery__item--feature img { aspect-ratio: 16 / 10; }
-  .logo-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .logo-wall { grid-template-columns: repeat(4, minmax(0, 1fr)); }
   .recognition { grid-template-columns: minmax(0, 1fr); }
   .principles { grid-template-columns: minmax(0, 1fr); }
   .form__row { grid-template-columns: minmax(0, 1fr); }
@@ -1106,7 +1103,7 @@ h1 .dot { color: var(--lime); }
 @media (max-width: 520px) {
   .gallery { grid-template-columns: minmax(0, 1fr); }
   .gallery__item--feature { grid-column: auto; }
-  .logo-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .logo-wall { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .metrics { grid-template-columns: minmax(0, 1fr); }
   .hero__ctas .btn { flex: 1 1 auto; }
 }
