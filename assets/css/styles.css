@@ -629,10 +629,10 @@ h1 .dot { color: var(--lime); }
 }
 .now__dash { color: var(--muted); font-weight: 400; }
 .now__title {
-  font-family: var(--font-sans);
-  font-weight: 700;
-  font-size: clamp(1.7rem, 3vw, 2.4rem);
-  line-height: 1.1;
+  font-family: var(--font-serif);
+  font-weight: 400;
+  font-size: clamp(2rem, 4.4vw, 3.5rem);
+  line-height: 1.04;
   letter-spacing: -0.02em;
   color: var(--ink);
   margin: 0 0 0.75rem;
@@ -669,7 +669,7 @@ h1 .dot { color: var(--lime); }
   max-width: none;
   margin: 0;
 }
-.now__desc strong { color: var(--purple); font-weight: 600; }
+.now__desc strong { color: var(--accent-ink); font-weight: 600; }
 
 @media (max-width: 900px) {
   .now { grid-template-columns: minmax(0, 1fr); gap: 1.5rem; }
