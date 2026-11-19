@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact — Sandrine Ojong</title>
+  <meta name="description" content="Get in touch with Sandrine Ojong for speaking, partnerships, press, mentorship, or a conversation about education and opportunity.">
+  <meta name="theme-color" content="#F4F2EE">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Contact — Sandrine Ojong">
+  <meta property="og:description" content="For speaking, partnerships, press, or a conversation about education and opportunity.">
+  <meta property="og:image" content="assets/images/home/img_20250403_160037475_hdr.webp">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,300..700;1,6..72,300..600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script src="assets/js/main.js" defer></script>
+</head>
+<body id="top">
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="shell site-header__inner">
+      <a class="brand" href="index.html" aria-label="Sandrine Ojong, home">
+        Sandrine Ojong<span class="brand__mark" aria-hidden="true"></span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="index.html#work">Work</a>
+        <a href="index.html#moments">Moments</a>
+        <a href="contact.html" aria-current="page">Contact</a>
+      </nav>
+      <div class="site-header__actions">
+        <a class="btn btn--ink btn--sm" href="contact.html">Get in touch <span class="arrow" aria-hidden="true">→</span></a>
+        <button class="menu-toggle" type="button" data-menu-open aria-label="Open menu" aria-controls="menuDialog" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <dialog class="menu-dialog" id="menuDialog" aria-label="Menu">
+    <div class="menu-dialog__inner">
+      <div class="menu-dialog__top">
+        <a class="brand" href="index.html">Sandrine Ojong<span class="brand__mark" aria-hidden="true"></span></a>
+        <button class="menu-dialog__close" type="button" data-menu-close aria-label="Close menu">✕</button>
+      </div>
+      <nav class="menu-nav" aria-label="Mobile">
+        <a href="index.html">Home <span>01</span></a>
+        <a href="about.html">About <span>02</span></a>
+        <a href="index.html#work">Work <span>03</span></a>
+        <a href="index.html#moments">Moments <span>04</span></a>
+        <a href="contact.html">Contact <span>05</span></a>
+      </nav>
+      <div class="menu-dialog__foot">
+        <a class="btn btn--ink" href="contact.html">Get in touch <span class="arrow" aria-hidden="true">→</span></a>
+        <p class="menu-dialog__meta">sandrineojongayuktabong@gmail.com</p>
+      </div>
+    </div>
+  </dialog>
+
+  <main id="main">
+    <section class="page-hero">
+      <div class="shell">
+        <div class="page-hero__inner">
+          <div>
+            <span class="eyebrow">Contact</span>
+            <h1 style="margin-top: 1rem;">Let's talk<span class="serif italic">.</span></h1>
+          </div>
+          <div class="page-hero__aside">
+            <p>For speaking inquiries, press requests, partnerships, mentorship, or just a hello, the form is the fastest way to reach my desk.</p>
+            <div class="rule"></div>
+            <p style="font-size: .8rem; letter-spacing: .04em;">Usually within 3–5 working days</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--tight">
+      <div class="shell">
+        <div class="contact-grid">
+          <div>
+            <form class="form" data-contact-form novalidate>
+              <div class="form__row">
+                <div class="field">
+                  <label for="f-name">Your name</label>
+                  <input id="f-name" name="name" type="text" autocomplete="name" required>
+                  <span class="field__error" aria-live="polite"></span>
+                </div>
+                <div class="field">
+                  <label for="f-email">Email</label>
+                  <input id="f-email" name="email" type="email" autocomplete="email" required>
+                  <span class="field__error" aria-live="polite"></span>
+                </div>
+              </div>
+              <div class="field">
+                <label for="f-org">Organization <span class="muted" style="font-weight: 400; text-transform: none; letter-spacing: 0;">(optional)</span></label>
+                <input id="f-org" name="organization" type="text" autocomplete="organization">
+              </div>
+              <div class="form__row">
+                <div class="field">
+                  <label for="f-inquiry">Type of inquiry</label>
+                  <select id="f-inquiry" name="inquiry">
+                    <option>Speaking engagement</option>
+                    <option>Partnership or advisory</option>
+                    <option>Press or interview</option>
+                    <option>Mentorship or student question</option>
+                    <option>Something else</option>
+                  </select>
+                </div>
+                <div class="field">
+                  <label for="f-event">Event date <span class="muted" style="font-weight: 400; text-transform: none; letter-spacing: 0;">(if applicable)</span></label>
+                  <input id="f-event" name="event" type="date">
+                </div>
+              </div>
+              <div class="field">
+                <label for="f-message">Tell me about it</label>
+                <textarea id="f-message" name="message" required placeholder="Context, dates, audience, and what you have in mind."></textarea>
+                <span class="field__error" aria-live="polite"></span>
+              </div>
+              <div class="form__status" data-form-status role="status" aria-live="polite"></div>
+              <button class="btn btn--ink" type="submit">Send message <span class="arrow" aria-hidden="true">→</span></button>
+              <p class="form__hint">This opens your email app with the message ready to send. You can also write to <a class="link-underline" href="mailto:sandrineojongayuktabong@gmail.com">sandrineojongayuktabong@gmail.com</a>.</p>
+            </form>
+          </div>
+
+          <aside class="direct-card">
+            <div class="direct-card__row">
+              <span class="direct-card__label">Direct email</span>
+              <span class="direct-card__value"><a href="mailto:sandrineojongayuktabong@gmail.com">sandrineojongayuktabong@gmail.com</a></span>
+              <button class="copy-btn" type="button" data-copy-email="sandrineojongayuktabong@gmail.com">
+                <span aria-hidden="true">⧉</span>
+                <span data-copy-label>Copy address</span>
+              </button>
+            </div>
+            <div class="direct-card__row">
+              <span class="direct-card__label">Based in</span>
+              <span class="direct-card__value">Mauritius · Cameroon</span>
+            </div>
+            <div class="direct-card__row">
+              <span class="direct-card__label">Response time</span>
+              <span class="direct-card__value">Usually within 3–5 working days</span>
+            </div>
+            <div class="direct-card__row">
+              <span class="direct-card__label">Elsewhere</span>
+              <div class="social-list">
+                <a href="https://www.instagram.com/sandrine_ojong/" target="_blank" rel="noopener noreferrer"><span>Instagram</span><span aria-hidden="true">↗</span></a>
+                <a href="https://www.linkedin.com/in/sandrine-ojong-369b96265/" target="_blank" rel="noopener noreferrer"><span>LinkedIn</span><span aria-hidden="true">↗</span></a>
+                <a href="https://www.tiktok.com/@sandrineojong" target="_blank" rel="noopener noreferrer"><span>TikTok</span><span aria-hidden="true">↗</span></a>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--rule">
+      <div class="shell">
+        <div class="grid-2" style="align-items: start;">
+          <div>
+            <span class="eyebrow">Before you write</span>
+            <h2 style="margin-top: .9rem; max-width: 16ch;">A few useful answers.</h2>
+            <p class="lead" style="margin-top: 1rem;">If your question is already here, it might save us both an email. If not, the form is the right place.</p>
+          </div>
+          <div class="faq">
+            <details>
+              <summary>What should I include in my note?</summary>
+              <p>Context, dates, audience, and what you're hoping to get from the conversation. If it's a speaking request, a link to the event or a short brief helps a lot.</p>
+            </details>
+            <details>
+              <summary>Can I invite you to speak?</summary>
+              <p>Yes. I speak on education access, youth leadership, and the post-2030 education agenda. Include the date, location, audience, and format, and I'll come back to you with availability.</p>
+            </details>
+            <details>
+              <summary>Do you take mentoring conversations?</summary>
+              <p>Yes, when there's room. Students and early-career organisers are welcome to write. I reply when I can, and I'm honest when I can't.</p>
+            </details>
+            <details>
+              <summary>How quickly do you reply?</summary>
+              <p>Usually within 3–5 working days. If something is time-sensitive, say so in the first line and I'll do my best to prioritise it.</p>
+            </details>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h2>Sandrine Ojong</h2>
+          <p>Social entrepreneur, speaker, and education advocate. Building pathways to global opportunity for young people.</p>
+        </div>
+        <div class="footer-col">
+          <h3>Navigate</h3>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="index.html#work">Work</a></li>
+            <li><a href="index.html#moments">Moments</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>Elsewhere</h3>
+          <ul>
+            <li><a href="https://www.instagram.com/sandrine_ojong/" target="_blank" rel="noopener noreferrer">Instagram <span class="ext" aria-hidden="true">↗</span></a></li>
+            <li><a href="https://www.linkedin.com/in/sandrine-ojong-369b96265/" target="_blank" rel="noopener noreferrer">LinkedIn <span class="ext" aria-hidden="true">↗</span></a></li>
+            <li><a href="https://www.tiktok.com/@sandrineojong" target="_blank" rel="noopener noreferrer">TikTok <span class="ext" aria-hidden="true">↗</span></a></li>
+            <li><a href="mailto:sandrineojongayuktabong@gmail.com">Email <span class="ext" aria-hidden="true">↗</span></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span data-year>2026</span> Sandrine Ojong. All rights reserved.</span>
+        <a href="#top">Back to top ↑</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
