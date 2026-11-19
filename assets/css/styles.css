@@ -669,7 +669,7 @@ h1 .dot { color: var(--lime); }
   max-width: none;
   margin: 0;
 }
-.now__desc strong { color: var(--accent-ink); font-weight: 600; }
+.now__desc strong { background: var(--lime); color: var(--ink); padding: 0 0.15em; border-radius: 2px; font-weight: 600; }
 
 @media (max-width: 900px) {
   .now { grid-template-columns: minmax(0, 1fr); gap: 1.5rem; }
