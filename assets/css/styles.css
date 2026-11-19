@@ -576,7 +576,7 @@ h3 { font-size: clamp(1.35rem, 2.2vw, 1.8rem); line-height: 1.15; }
   border-radius: var(--radius-xl);
   background: var(--night);
   color: var(--white);
-  padding: clamp(2rem, 6vw, 5.5rem);
+  padding: clamp(2.5rem, 7vw, 6.5rem);
   box-shadow: var(--shadow);
 }
 .manifesto::after {
@@ -593,7 +593,7 @@ h3 { font-size: clamp(1.35rem, 2.2vw, 1.8rem); line-height: 1.15; }
 .manifesto__inner { position: relative; z-index: 1; display: flex; flex-direction: column; gap: 1.6rem; max-width: 74rem; }
 .manifesto p {
   font-family: var(--font-serif);
-  font-size: clamp(1.55rem, 3.5vw, 2.85rem);
+  font-size: clamp(1.9rem, 4.2vw, 3.4rem);
   line-height: 1.14;
   letter-spacing: -0.02em;
   text-wrap: balance;
