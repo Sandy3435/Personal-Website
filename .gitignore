@@ -1,0 +1,25 @@
+# --- OS / editor noise ---
+Thumbs.db
+Desktop.ini
+.DS_Store
+.vscode/
+.idea/
+
+# --- Python ---
+__pycache__/
+*.pyc
+
+# --- Local source material (not part of the published site) ---
+site/
+design/
+Creative Writing Club/
+Knowledge Center/
+TIC Foundation/
+/DSC*.jpg
+/Brag Sheet.docx
+
+# --- Legacy build scripts replaced by the hand-built pages ---
+/build_*.py
+/check_assets.py
+/check_remote.py
+/fix_ticker.py
